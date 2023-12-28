@@ -1,0 +1,51 @@
+     <style>
+    .custom-select-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .custom-select {
+      width: 200px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    .dropdown-icon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+    .select-options {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    .select-option {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .select-option:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
